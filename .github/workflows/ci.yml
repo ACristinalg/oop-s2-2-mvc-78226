@@ -9,9 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: oop-s2-2-mvc-78226
     steps:
       - uses: actions/checkout@v4
       - name: Setup .NET
